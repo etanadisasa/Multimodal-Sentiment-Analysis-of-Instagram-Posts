@@ -2,11 +2,11 @@ streamlit==1.26.1
 torch==2.8.0
 torchvision==0.23.0
 transformers==4.33.2
-Pillow==10.1.0
-opencv-python==4.8.1.78
+Pillow==10.0.0
+opencv-python-headless==4.8.1.78
 numpy==1.26.0
 pandas==2.1.1
-emoji==2.3.1
+emoji==2.2.0
 requests==2.32.0
 rich==13.4.3
 markdown-it-py==3.0.0
