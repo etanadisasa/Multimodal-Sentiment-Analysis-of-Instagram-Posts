@@ -56,19 +56,19 @@ Please place all codes and necessary files/folders in the same project folder.
 ```
 project-folder/
 │
-├── Code/                    # Python scripts and utilities
+├── Code/                        # Python scripts and utilities
 │   ├── sentiment-processor.py
 │   └── socialmedia-utils.py
+│   └── yolov8n.pt               # YOLO model file can be downloaded and be stored here     
+├── Report/                      # Practicum report file
+│   └── Report.pdf
 │
-├── Report/                  # Practicum report files and license
-│   └── LICENSE.txt
-│
-├── Presentation/            # Slides or presentation files
-│
-├── NSFW/                    # Couldn't upload due to size limit. NSFW model (make sure you download your version here) must be in place for the code to run an NSFW check.
-├── requirements.txt         # List of Python dependencies
-├── yolov8n.pt               # YOLO model file can be downloaded and be stored here
-└── README.md                # Project overview and instructions
+├── Presentation/                # Slides or presentation file
+│   └── Presentation.pdf
+├── NSFW                         # Couldn't upload due to size limit. NSFW model (make sure you download your version here) must be in place for the code to run an NSFW check.
+├── requirements.txt             # List of Python dependencies
+├── yolov8n.pt                   # YOLO model file can be downloaded and be stored here
+└── README.md                    # Project overview and instructions
 ```
 
 ## Licenses and Acknowledgments
