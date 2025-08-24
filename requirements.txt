@@ -1,9 +1,26 @@
-torch==2.2.2
-transformers==4.40.1
-ultralytics==8.1.28
-instaloader==4.12
-opencv-python-headless==4.9.0.80
-Pillow==10.3.0
-emoji==2.12.1
-requests==2.31.0
-streamlit==1.36.0
+# Core libraries
+streamlit==1.26.1
+torch==2.8.0
+torchvision==0.15.2
+torchaudio==2.8.2
+
+# Transformers for NLP
+transformers==4.35.0
+sentencepiece==0.1.99
+
+# Image processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Utility & parsing
+numpy==1.26.1
+pandas==2.1.1
+requests==2.32.0
+emoji==2.3.0
+rich==14.1.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pyyaml==6.0
+
+# Optional: YOLO / object detection
+ultralytics==8.1.3
