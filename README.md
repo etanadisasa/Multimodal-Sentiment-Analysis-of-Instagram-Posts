@@ -65,7 +65,7 @@ project-folder/
 │
 ├── Presentation/            # Slides or presentation files
 │
-├── NSFW/                    # NSFW model data (make sure you download your version here
+├── NSFW/                    # Couldn't upload due to size limit. NSFW model (make sure you download your version here) must be in place for the code to run an NSFW check.
 ├── requirements.txt         # List of Python dependencies
 ├── yolov8n.pt               # YOLO model file can be downloaded and be stored here
 └── README.md                # Project overview and instructions
