@@ -1,14 +1,9 @@
-torch>=2.0
-transformers>=4.40
-ultralytics>=8.0
-instaloader
-opencv-python
-Pillow
-emoji
-requests
-streamlit
-
-# Log in to Instagram via terminal using Instaloader:
-instaloader --login YOUR_USERNAME
-# You will be prompted for your password and possibly 2FA code.
-# This creates a session file that the script can reuse.
+torch==2.2.2
+transformers==4.40.1
+ultralytics==8.1.28
+instaloader==4.12
+opencv-python-headless==4.9.0.80
+Pillow==10.3.0
+emoji==2.12.1
+requests==2.31.0
+streamlit==1.36.0
