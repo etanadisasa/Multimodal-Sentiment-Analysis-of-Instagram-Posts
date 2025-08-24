@@ -17,6 +17,9 @@ torchaudio>=2.5.1
 opencv-python-headless>=4.8.0
 Pillow>=10.0.0
 
+# YOLO/Ultralytics
+ultralytics>=8.1.28
+
 # Social media utilities
 instaloader>=4.9.2
 emoji>=2.6.0
@@ -27,4 +30,3 @@ rich>=14.1.0
 markdown-it-py>=4.0.0
 pyyaml>=6.0
 tqdm>=4.66.1
-uuid>=1.30
