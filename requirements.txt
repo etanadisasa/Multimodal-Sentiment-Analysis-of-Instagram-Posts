@@ -1,10 +1,20 @@
-streamlit==1.26.1
-torch==2.8.0
-torchvision==0.23.0
-transformers==4.33.2
-Pillow==9.6.0
-opencv-python-headless==4.8.1.78
-numpy==1.26.0
-pandas==2.1.1
-emoji==2.2.0
-requests==2.32.0
+# Core packages
+streamlit>=1.26.0
+torch>=2.8.0
+torchvision>=0.15.2
+transformers>=4.40.0
+
+# Image/video processing
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+
+# Utilities
+emoji>=2.3.0
+requests>=2.32.0
+ultralytics>=8.0.0
+
+# Optional logging/formatting (Streamlit usually installs these automatically)
+rich>=14.1.0
+markdown-it-py>=4.0.0
+mdurl>=0.1.2
+pygments>=2.19.2
